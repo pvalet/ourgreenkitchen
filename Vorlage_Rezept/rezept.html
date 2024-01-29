@@ -3,64 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rezept Name</title>
+    <title>Rezeptname</title>
+    <link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" >
     <link href="..\css\index.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
-<!-- Header/Banner/Links-->
+<!--Breadcrumb Navigation-->
+ <ul class="breadcrumb" id="top">
+    <li><a href="..\..\index.html">Startseite</a></li>
+    <li><a href="..\..\ressources\Kategorie.html">Kategorie</a></li>
+    <li>Rezeptname</li>
+  </ul> 
 
-    <div class="Header">
-        <p class="Banner">
-            <a href="..\..\index.html">Home</a>
-        </p>
+
+<!-- Header -->
+<header >
+    <div class="dropdown">
+        <btn class="dropbtn">    
+            <i class="fa fa-bars fa-2x"></i>
+        </btn>
+        <div class="dropdown-content">
+          <a href="..\..\index.html">Startseite</a>
+          <a href="..\..\ressources\Mediterran.html">Mediterran</a>
+          <a href="..\..\ressources\Asiatisch.html">Asiatisch</a>
+          <a href="#Orientalisch">Orientalisch</a>
+          <a href="#Klassisch">Klassisch</a>
+          <a href="..\..\ressources\Sweet.html">Süßes</a>
+        </div>
+    </div> 
+    <div>
+        <img src="..\..\ressources\images\logo-01.png"  alt="green kitchen logo">
     </div>
-
-<!-- Titel/Intro-->
-
-    <div class="Intro">
-        <h1 id="RezeptName"> Rezept Name</h1>
+    <div>
+        <a href="..\..\index.html">
+            <i class="fa fa-home fa-2x"></i>
+        </a>
     </div>
+ </header>
 
-<!--Zutaten-->
-
-    <div class="Zutaten">
-        <h2 id="Zutaten">Zutaten</h2>
-            <ul>
-                <li>Zutat1</li>
-                <li>Zutat2</li>
-                
-            </ul>
-        <h3>Gewürze</h3>
-            <ul>
-                <li>Gewürz1</li>
-                <li>Gewürz2</li>
-             </ul>
-    </div>
-
-<!--Zubereitung-->
-
-    <div class="Zubereitung">
-        <h2>Zubereitung</h2>
-                <h3>Komponente1</h3>
-                    <ol>
-                        <li>Schritt1</li>
-                        <li>Schritt2</li>                       
-                    </ol>
-                <h3>Komponente2</h3>
-                    <ol>
-                        <li>Schritt1</li>
-                        <li>Schritt2</li>
-                    </ol>          
-    </div>
-
-<!-- Servieren -->
-
-    <div class="Servieren">
-        <h2>Servieren</h2>
-        <p>Servierbeschreibung</p>
-            <img src=".\images\Rezept_serviert.jpg" width="500px" alt="Rezept Serviert">
-    </div>
+<!-- Rezept -->
+<div class="Rezept">
+    <img src=".\images\Rezept_serviert.jpg" alt="Rezept Serviert">
     
+    <div class="Rezeptname">
+        <span>Rezeptname</span>
+    </div>
+
+    <div class="Infos">
+        <span><i class="fa fa-clock-o fa-2x"></i>ca. XX Minuten</span>
+        <span><i class="fa fa-user-o fa-2x"></i>X Personen</span>
+        
+    </div>
+
+    <div class="Anleitung">
+    
+        <!--Zutaten-->
+
+        <div class="Zutaten">
+            <h2 id="Zutaten">Zutaten</h2>
+                <ul>
+                    <li>Zutat 1</li>
+                    <li>Zutat 2 </li>
+                 </ul>
+        </div>
+
+        <!--Zubereitung-->
+
+        <div class="Zubereitung">
+            <h2>Zubereitung</h2>
+                <ol>
+                    <li>Schritt 1 </li>  
+                    <li>Schritt 2</li>
+                </ol>  
+        </div>
+    </div>
+</div>
+
+<footer>
+    <span> </span>
+    <a href="#Impressum">Impressum</a>
+    <a href="#top">
+        <i class="fa fa-angle-double-up fa-2x"></i>
+    </a>
+
+
+</footer>
+
+   
 </body>
 </html>

@@ -6,60 +6,97 @@
         <title>Mediterran</title>
         <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet"> 
         <link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" >
-        <link href=".\css\index.css" type="text/css" rel="stylesheet">
-
-    
+        <link href=".\css\index.css" type="text/css" rel="stylesheet">    
     </head>
 
 <body>
-   <!-- Header -->
-    <header>
-        <div class="dropdown">
-            <btn class="dropbtn">    <i class="fa fa-bars fa-2x"></i>
-            </btn>
-            <div class="dropdown-content">
-            <a href="..\index.html">Neueste Rezepte</a>
-            <a href=".\Asiatisch.html">Asiatisch</a>
-            <a href="#Orientalisch">Orientalisch</a>
-            <a href="#Klassisch">Klassisch</a>
-            <a href="#Süßes">Süßes</a>
-            </div>
-        </div> 
-        <div>
-            <p class="title">Mediterrane Rezepte</p>
-        </div>
-        <div>
-            <a href="..\index.html">
-                <i class="fa fa-home fa-2x"></i>
-            </a>
-        </div>
-    </header> 
 
-    <div class="gallery">
-        <a href=".\Pasta_Calabrese\pasta_calabrese.html" target="_blank">
-            <div class="image-container">
-                    <img src=".\Pasta_Calabrese\images\pasta_calabrese_serviert.jpg" alt="Calabrese Serviert">
-                    <span class="caption">Pasta Calabrese</span>
-            </div>
-        </a>
-        <a href=".\Pasta_Limone\pasta_limone.html" target="_blank"> 
-            <div class="image-container">
-                <img src=".\Pasta_Limone\images\pasta_limone_serviert.jpg" alt="Pasta Limone Serviert">
-                <span class="caption">Pasta Limone</span>
-            </div>
-        </a>
-        <a href=".\Tortilla\tortilla.html" target="_blank">
-            <div class="image-container">
-                <img src=".\Tortilla\images\tortilla_serviert.jpg" alt="Zitronentarte Serviert">
-                <span class="caption">Tortilla</span>
-            </div>
-        </a>
-        <a href=".\Veggie_Bolognese\veggie_bolognese.html" target="_blank">
-            <div class="image-container">
-                <img src=".\Veggie_Bolognese\images\veggie_bolognese_serviert.jpg" alt="Zitronentarte Serviert">
-                <span class="caption">Veggie Bolognese</span>
-            </div>
+<!--Breadcrumb Navigation-->
+<ul class="breadcrumb" id="top">
+    <li><a href="..\index.html">Startseite</a></li>
+    <li>Mediterran</li>
+  </ul> 
+
+<!-- Header -->
+<header>
+    <div class="dropdown">
+        <btn class="dropbtn">    <i class="fa fa-bars fa-2x"></i>
+        </btn>
+        <div class="dropdown-content">
+            <a href="..\index.html">Startseite</a>
+            <a href=".\Asiatisch.html">Asiatisch</a>
+            <a href=".\Orientalisch.html">Orientalisch</a>
+            <a href=".\Klassisch.html">Klassisch</a>
+            <a href=".\Sweet.html">Süßes</a>
+        </div>
+    </div> 
+    <img src=".\images\logo-01.png"  alt="green kitchen logo">
+    <div>
+        <a href="..\index.html">
+            <i class="fa fa-home fa-2x"></i>
         </a>
     </div>
+ </header>
+ 
+<main>
+    <h1>Mediterrane Rezepte:</h1>
+    <div class="gallery">
+        <a href=".\Pasta_Calabrese\pasta_calabrese.html">
+            <div class="image-container">
+                <div class="polaroid"><img src=".\Pasta_Calabrese\images\pasta_calabrese_serviert.jpg" alt="Calabrese Serviert">
+                    <span class="caption">Pasta Calabrese</span>
+                </div>
+            </div>
+        </a>  
+        
+        <a href=".\Pasta_Limone\pasta_limone.html"> 
+            <div class="image-container">
+                <div class="polaroid"><img src=".\Pasta_Limone\images\pasta_limone_serviert.jpg" alt="Pasta Limone Serviert">
+                    <span class="caption">Pasta Limone</span>
+                </div>
+            </div>
+        </a>   
+    
+        <a href=".\Tortilla\tortilla.html">
+            <div class="image-container">
+                <div class="polaroid">
+                    <img src=".\Tortilla\images\tortilla_serviert.jpg" alt="Tortilla Serviert">
+                    <span class="caption">Tortilla</span>
+                </div>                    
+            </div>
+        </a>
+
+        <a href=".\Zitronentarte\Zitronentarte.html">
+            <div class="image-container">
+                <div class="polaroid">
+                    <img src=".\Zitronentarte\images\Zitronentarte_serviert.jpg" alt="Zitronentarte Serviert">
+                <span class="caption">Zitronentarte</span>
+                </div>                    
+            </div>
+        </a>
+
+        <a href=".\Veggie_Bolognese\veggie_bolognese.html">
+            <div class="image-container">
+                <div class="polaroid"> <img src=".\Veggie_Bolognese\images\veggie_bolognese_serviert.jpg" alt="Veggie Bolognese Serviert">
+                    <span class="caption">Veggie Bolognese</span>
+                </div>                   
+            </div>
+        </a>
+
+
+
+        </div>
+    </main>
+
+    <footer>
+        <span>&copy; APV </span>
+        <a href="#Impressum">Impressum</a>
+        <a href="#top">
+            <i class="fa fa-angle-double-up fa-2x"></i>
+        </a>
+    
+    
+    </footer>
+
 </body>
 </html>

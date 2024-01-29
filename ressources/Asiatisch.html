@@ -6,40 +6,65 @@
         <title>Asiatisch</title>
         <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet"> 
         <link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" >
-        <link href=".\css\index.css" type="text/css" rel="stylesheet">
+        <link href=".\css\index.css" type="text/css" rel="stylesheet">    
     </head>
 
 <body>
-   <!-- Header -->
-    <header>
-        <div class="dropdown">
-            <btn class="dropbtn">    <i class="fa fa-bars fa-2x"></i>
-            </btn>
-            <div class="dropdown-content">
-            <a href="..\index.html">Neueste Rezepte</a>
-            <a href=".\Mediterran.html">Mediterran</a>
-            <a href="#Orientalisch">Orientalisch</a>
-            <a href="#Klassisch">Klassisch</a>
-            <a href="#Süßes">Süßes</a>
-            </div>
-        </div> 
-        <div>
-            <p class="title">Asiatische Rezepte</p>
-        </div>
-        <div>
-            <a href="..\index.html">
-                <i class="fa fa-home fa-2x"></i>
-            </a>
-        </div>
-    </header> 
 
-    <div class="gallery">
-        <a href=".\Reispapier_Dumplings\reispapier_dumplings.html" target="_blank">
-            <div class="image-container">
-                <img src=".\Reispapier_Dumplings\images\dumpling_serviert.jpg" alt="Dumpling Serviert" >
-                <span class="caption">Reispapier Dumplings</span>
-            </div>
+<!--Breadcrumb Navigation-->
+<ul class="breadcrumb" id="top">
+    <li><a href="..\index.html">Startseite</a></li>
+    <li>Asiatisch</li>
+  </ul> 
+
+<!-- Header -->
+<header>
+    <div class="dropdown">
+        <btn class="dropbtn">    
+            <i class="fa fa-bars fa-2x"></i>
+        </btn>
+        <div class="dropdown-content">
+            <a href="..\index.html">Startseite</a>
+            <a href=".\Mediterran.html">Mediterran</a>
+            <a href=".\Orientalisch.html">Orientalisch</a>
+            <a href=".\Klassisch.html">Klassisch</a>
+            <a href=".\Sweet.html">Süßes</a>
+        </div>
+    </div> 
+    <img src=".\images\logo-01.png"  alt="green kitchen logo">
+    <div>
+        <a href="..\index.html">
+            <i class="fa fa-home fa-2x"></i>
         </a>
     </div>
+ </header>
+ 
+<main>
+    <h1>Asiatische Rezepte:</h1>
+    <div class="gallery">
+
+         <a href=".\Reispapier_Dumplings\reispapier_dumplings.html">
+                <div class="image-container">
+                    <div class="polaroid"><img src=".\Reispapier_Dumplings\images\dumpling_serviert.jpg" alt="Dumpling Serviert" >
+                        <span class="caption">Reispapier Dumplings</span>
+                    </div>
+                </div>
+            </a>
+
+
+
+        </div>
+    </main>
+
+    <footer>
+        <span>&copy; APV </span>
+        <a href="#Impressum">Impressum</a>
+        <a href="#top">
+            <i class="fa fa-angle-double-up fa-2x"></i>
+        </a>
+    
+    
+    </footer>
+
 </body>
 </html>
