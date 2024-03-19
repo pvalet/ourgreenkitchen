@@ -278,7 +278,12 @@ h2, h3 {
     body {
       font-size: 12px;
     }
+    
     .thumbnail {
         width: 60%;
+    }
+    
+    .Zutaten, .Zubereitung {
+      width: 100%;
     }
   }
